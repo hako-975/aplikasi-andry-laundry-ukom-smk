@@ -1,0 +1,60 @@
+/* ALL (include: mobile and desktop) */
+
+/*h1 {
+	font-size: 1.95em !important;
+}
+
+h2 {
+	font-size: 1.5em !important;
+}
+
+h3 {
+	font-size: 1.13em !important;
+}
+
+h4 {
+	font-size: 1em !important;
+}
+
+h5 {
+	font-size: .85em !important;
+}
+
+h6 {
+	font-size: .6em !important;
+}
+
+p, th, td, a, ul li a, button, label, input, span, small, select, option, .jumlah-laporan {
+	font-size: .85em !important;
+}
+*/
+
+.header-judul {
+	text-align: center;
+}
+
+.header-kanan {
+	text-align: center;
+	margin: 10px 0;
+}
+.qr-code {
+	position: relative!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+	.qr-code {
+		position: absolute!important;
+		right: 0!important; 
+		top: 10px!important;
+	}
+	.header-judul {
+		text-align: left;
+	}
+	.header-kanan {
+		text-align: right;
+		margin: 10px 0;
+	}
+}
