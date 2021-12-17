@@ -58,7 +58,7 @@ password: 12345
 ___
 
 ## Database
-database terdapat dalam folder databse
+database terdapat dalam folder databses
 ___
 
 
