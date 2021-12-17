@@ -15,6 +15,7 @@ Aplikasi ini dibangun menggunakan PHP versi 7 dengan framework CodeIgniter 3 dan
 
 ## Akun:
 Untuk mengakses akun Admin, pada bagian akhir url tambahkan auth/login. misal: http://localhost/andry_laundry/auth/login
+
 username: super_administrator
 password: 12345
 
