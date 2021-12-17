@@ -20,37 +20,37 @@ Untuk mengakses akun Admin, pada bagian akhir url tambahkan auth/login. misal: h
 username: super_administrator
 
 password: 12345
-
+---
 
 username: andre975
 
 password: 12345
-
+---
 
 username: irgi12
 
 password: 12345
-
+---
 
 username: salsa321
 
 password: 12345
-
+---
 
 username: indah76
 
 password: 12345
-
+---
 
 username: rian43
 
 password: 12345
-
+---
 
 username: febyfeb09
 
 password: 12345
-
+---
 
 username: gita32
 
