@@ -14,39 +14,48 @@ Aplikasi ini dibangun menggunakan PHP versi 7 dengan framework CodeIgniter 3 dan
 
 
 ## Akun:
+Jabatan akun dibagi menjadi 4 yaitu: super administrator, administrator, kasir, owner.
 Untuk mengakses akun Admin, pada bagian akhir url tambahkan auth/login. misal: http://localhost/andry_laundry/auth/login
 
 username: super_administrator
 
 password: 12345
 
+
 username: andre975
 
 password: 12345
+
 
 username: irgi12
 
 password: 12345
 
+
 username: salsa321
 
 password: 12345
+
 
 username: indah76
 
 password: 12345
 
+
 username: rian43
 
 password: 12345
+
 
 username: febyfeb09
 
 password: 12345
 
+
 username: gita32
 
 password: 12345
+
 
 ## Database
 database terdapat dalam folder databse
