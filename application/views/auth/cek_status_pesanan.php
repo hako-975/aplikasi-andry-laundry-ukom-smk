@@ -200,7 +200,11 @@
                             Uang yang dibayar (Rp.)
                           </td>
                           <td class="text-right font-weight-bold">
-                            <span class="badge badge-danger"><i class="fas fa-fw fa-times"></i> Belum Dibayar</span>
+                            <?php if ($pembayaran != null): ?>
+                              <span>Rp. <?= number_format($pembayaran['uang_yg_dibayar']); ?></span>
+                            <?php else: ?>
+                              <span class="badge badge-danger"><i class="fas fa-fw fa-times"></i> Belum Dibayar</span>
+                            <?php endif ?>
                           </td>
                         </tr>
                         <tr>
@@ -208,7 +212,11 @@
                             Kembalian (Rp.)        
                           </th>
                           <td class="text-right font-weight-bold">
-                            <span class="badge badge-danger"><i class="fas fa-fw fa-times"></i> Belum Dibayar</span>
+                            <?php if ($pembayaran != null): ?>
+                              <span>Rp. <?= number_format($pembayaran['kembalian']); ?></span>
+                            <?php else: ?>
+                              <span class="badge badge-danger"><i class="fas fa-fw fa-times"></i> Belum Dibayar</span>
+                            <?php endif ?>
                           </td>
                         </tr>
                       </tbody>

@@ -101,7 +101,7 @@
 					  </div>
 					  <ul class="list-group list-group-flush">
 					    <li class="list-group-item"><i class="fas fa-fw fa-users"></i> Member : <strong>
-					    	<?php if ($jumlah_member == ''): ?>
+					    	<?php if ($jumlah_member == null): ?>
 					    		0
 					    	<?php else: ?>
 					    		<?= $jumlah_member; ?>
@@ -109,7 +109,7 @@
 					    </strong></li>
 					    <li class="list-group-item"><i class="fas fa-fw fa-handshake"></i> Transaksi : 
 					    	<strong>
-					    		<?php if ($jumlah_transaksi['jumlah_transaksi'] == ''): ?>
+					    		<?php if ($jumlah_transaksi == null): ?>
 					    			0
 					    		<?php else: ?>
 						    		<?= $jumlah_transaksi['jumlah_transaksi']; ?>
@@ -118,7 +118,7 @@
 					    </li>
 					    <li class="list-group-item"><i class="fas fa-fw fa-sync"></i> Proses : 
 					    	<strong>
-					    		<?php if ($jumlah_status_transaksi_proses['proses'] == ''): ?>
+					    		<?php if ($jumlah_status_transaksi_proses == null): ?>
 					    			0
 					    		<?php else: ?>
 						    		<?= $jumlah_status_transaksi_proses['proses']; ?>
@@ -127,7 +127,7 @@
 					    </li>
 					    <li class="list-group-item"><i class="fas fa-fw fa-tshirt"></i> Dicuci : 
 					    	<strong>
-					    		<?php if ($jumlah_status_transaksi_dicuci['dicuci'] == ''): ?>
+					    		<?php if ($jumlah_status_transaksi_dicuci == null): ?>
 					    			0
 					    		<?php else: ?>
 						    		<?= $jumlah_status_transaksi_dicuci['dicuci']; ?>
@@ -136,7 +136,7 @@
 					    </li>
 					    <li class="list-group-item"><i class="fas fa-fw fa-people-carry"></i> Siap Diambil : 
 					    	<strong>
-					    		<?php if ($jumlah_status_transaksi_siap_diambil['siap diambil'] == ''): ?>
+					    		<?php if ($jumlah_status_transaksi_siap_diambil == null): ?>
 					    			0
 					    		<?php else: ?>
 						    		<?= $jumlah_status_transaksi_siap_diambil['siap diambil']; ?>
@@ -145,7 +145,7 @@
 					    </li>
 					    <li class="list-group-item"><i class="fas fa-fw fa-check-circle"></i> Sudah Diambil : 
 					    	<strong>
-					    		<?php if ($jumlah_status_transaksi_sudah_diambil['sudah diambil'] == ''): ?>
+					    		<?php if ($jumlah_status_transaksi_sudah_diambil == null): ?>
 					    			0
 					    		<?php else: ?>
 						    		<?= $jumlah_status_transaksi_sudah_diambil['sudah diambil']; ?>
@@ -153,14 +153,14 @@
 					    	</strong>
 					    </li>
 						<li class="list-group-item"><i class="fas fa-fw fa-dollar-sign"></i><sup><i class="fas fa-1x fa-times"></i></sup> Belum Dibayar : <strong>
-					    	<?php if ($jumlah_status_bayar_belum_dibayar['belum dibayar'] == ''): ?>
+					    	<?php if ($jumlah_status_bayar_belum_dibayar == null): ?>
 					    		0
 					    	<?php else: ?>
 					    		<?= $jumlah_status_bayar_belum_dibayar['belum dibayar']; ?>
 					    	<?php endif ?>
 					    </strong></li>
 					    <li class="list-group-item"><i class="fas fa-fw fa-dollar-sign"></i> Sudah Dibayar : <strong>
-					    	<?php if ($jumlah_status_bayar_sudah_dibayar['sudah dibayar'] == ''): ?>
+					    	<?php if ($jumlah_status_bayar_sudah_dibayar == null): ?>
 					    		0
 					    	<?php else: ?>
 					    		<?= $jumlah_status_bayar_sudah_dibayar['sudah dibayar']; ?>
